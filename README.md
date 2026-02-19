@@ -106,7 +106,7 @@ All analysis scripts are organized in the `/scripts` folder.
 E-Commerce-Sales-Analytics/
 │
 ├── datasets/
-│ └── online_retail_ii.csv
+│ └── README.md
 │
 ├── scripts/
 │ ├── 01_database_setup.sql
