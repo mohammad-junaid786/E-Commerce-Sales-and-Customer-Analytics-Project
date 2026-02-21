@@ -108,6 +108,9 @@ E-Commerce-Sales-Analytics/
 ├── datasets/
 │ └── README.md
 │
+├── reports/
+│   └── insights.md
+│
 ├── scripts/
 │ ├── 01_database_setup.sql
 │ ├── 02_validation.sql
@@ -132,9 +135,24 @@ E-Commerce-Sales-Analytics/
 
 ---
 
+## 📊 Insights Report
+
+A detailed business-focused insights summary is available here:
+
+📄 [`reports/insights.md`](reports/insights.md)
+
+This document highlights:
+- Key sales trends
+- Product performance insights
+- Customer retention analysis
+- Revenue concentration (Pareto)
+- Strategic recommendations
+
+---
+
 ## ✅ Conclusion  
 
-This project demonstrates a **complete SQL analytics workflow**, including:
+This project demonstrates a **complete SQL-driven analytics workflow on a 1M+ transaction dataset**, covering:
 
 - Data preparation and validation  
 - Business-focused KPI modeling  
@@ -142,7 +160,9 @@ This project demonstrates a **complete SQL analytics workflow**, including:
 - Customer retention and segmentation analysis  
 - Revenue concentration modeling using window functions  
 
-The structured approach reflects real-world BI and analytics practices, focusing on clarity, business alignment, and scalable query design.
+Beyond technical implementation, the analysis provides meaningful business insights, including seasonality patterns, customer retention behavior, product performance trends, and revenue distribution dynamics.
+
+Overall, the project simulates a real-world business intelligence environment, combining structured SQL execution with strategic insight generation.
 
 ---
 
