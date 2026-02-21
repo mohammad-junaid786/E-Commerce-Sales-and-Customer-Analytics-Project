@@ -265,30 +265,43 @@ From a technical and business perspective:
 
 ---
 
-# 📌 Overall Business Summary
+# 📌 Executive Summary & Final Conclusion
 
-From a technical and business perspective, the analysis reveals:
+This project analyzed over **1 million e-commerce transaction records** using structured SQL queries to simulate a real-world business intelligence workflow.
 
-- Strong seasonality with peak Q4 performance.
-- Heavy revenue concentration in the UK market.
-- High customer retention levels.
-- Revenue dependency on a smaller group of high-value customers.
-- Opportunity to optimize product returns and expand geographically.
+From both technical and business perspectives, the analysis reveals:
 
----
-
-# 🚀 Strategic Recommendations
-
-1. Strengthen Q4 inventory and marketing strategy.
-2. Introduce loyalty programs for repeat customers.
-3. Monitor high-return products to reduce revenue loss.
-4. Expand marketing focus beyond the UK market.
-5. Implement targeted segmentation-based campaigns.
+- Strong **seasonality patterns**, with peak revenue in Q4.
+- Heavy **geographic concentration in the UK market**.
+- A majority of customers are **repeat buyers**, indicating solid retention.
+- Revenue follows a **Pareto distribution**, where a smaller segment of customers contributes a significant share of total revenue.
+- Product portfolio includes both **premium revenue drivers** and **high-volume fast movers**.
+- Certain products show elevated return ratios, requiring operational monitoring.
 
 ---
 
-# 🧾 Final Note
+## 🎯 Strategic Takeaways
 
-This analysis was conducted using structured SQL queries on a dataset containing **1M+ transaction records**, simulating a real-world business intelligence workflow.
+1. Strengthen inventory and marketing focus ahead of Q4 peak demand.
+2. Develop loyalty strategies for high-value and repeat customers.
+3. Reduce dependency risk by growing medium-value customer segments.
+4. Monitor high-return products to improve operational efficiency.
+5. Explore expansion opportunities beyond the dominant UK market.
 
-The project demonstrates both technical SQL capability and business-driven analytical thinking.
+---
+
+## 🧾 Technical Highlights
+
+This project demonstrates:
+
+- Large-scale data handling (1M+ records)
+- Net revenue modeling
+- Conditional aggregation
+- Window functions (`RANK`, `NTILE`, `SUM OVER`)
+- Revenue concentration modeling
+- Customer segmentation logic
+- Defensive SQL practices (safe division, NULL handling)
+
+---
+
+This structured approach mirrors real-world analytics practice, combining data preparation, business logic design, and insight generation using SQL.
